@@ -8,5 +8,5 @@ def FizzBuzz(n):
 		elif( i % 3 == 0):
 			list.append("Fizz")
 		else:
-			list.append(str(n))
+			list.append(str(i))
 	return list
