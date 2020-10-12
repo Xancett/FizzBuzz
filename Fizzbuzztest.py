@@ -4,7 +4,7 @@ import unittest
 class TestFizzbuzz(unittest.TestCase):
 
 	def test_one(self):
-		self.assertEqual("1", FizzBuzz(1))
+		self.assertEqual(["1"], FizzBuzz(1))
 	
 	def test_two(self):
 		self.assertEqual(["1", "2"], FizzBuzz(2))
