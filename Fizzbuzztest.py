@@ -1,4 +1,4 @@
-from program import *
+from Fizzbuzz import *
 import unittest
 
 class TestFizzbuzz(unittest.TestCase):
